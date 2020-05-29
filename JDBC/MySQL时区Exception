@@ -1,0 +1,6 @@
+show variables like '%time_zone%';
+set global time_zone='+8:00';
+
+MySQL时区永久解决
+在MySQL的配置文件my.ini中加入
+default-time_zone = '+8:00'

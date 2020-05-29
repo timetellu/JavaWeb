@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta name='description' content="内容" http-equiv="refresh" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+</head>
+<body>
+    <input class="btn btn-primary" type="submit" value="提交" />
+    <input class="btn btn-default" id="del" type="button" value="删除" />
+    <input id = "back" type="button"  value="返回"/>
+    <a class="btn btn-default btn-sm del" href="javascript:selecttUser(3);">查看</a></td>
+
+<script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script>
+    $(function(){
+        $("#back").on("click",function(){
+            location.href="";
+        });
+    });
+
+    function selecttUser(id){
+        //判断，用户安全提示
+        if(confirm("您确定要删除吗？")){
+            //访问路径
+//            location.replace("${pageContext.request.contextPath}/DelUserServlet?id="+id);
+            location.replace("fe/DelUserServlet?id="+id);
+        }
+
+    }
+</script>
+</body>
+</html>

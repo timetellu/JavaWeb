@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta name='description' content="内容" http-equiv="refresh" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+<script src="js/jquery-3.2.1.min.js"></script>
+    <script>
+        $(function(){
+
+            $.get("provinceServlet",{},function(data){
+                //获取select
+                var select = $("#province");
+                //遍历json数组
+                //[{"id":1,"name":"北京"},{"id":2,"name":"上海"},{"id":3,"name":"广州"},{"id":4,"name":"陕西"}]
+                $(data).each(function(){
+                //创建option
+//                    var option = "<option name='1'>北京</option>"    //在下边拼接字符串: 单引号中  "+this.id+"
+                    var option = "<option name= '"+this.id+"'>"+this.name+"</option>";
+                // 调用select的append方法追加option
+                    select.append(option);
+                });
+
+
+
+            });
+        });
+        
+    </script>
+</head>
+
+<body>
+<select name="province" id="province">
+    <option>--请选择省份--</option>
+</select>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ajax_Json/Ajax_Json.iml" filepath="$PROJECT_DIR$/Ajax_Json/Ajax_Json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cookie&amp;Session/Cookie&amp;Session.iml" filepath="$PROJECT_DIR$/Cookie&amp;Session/Cookie&amp;Session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileDownload/FileDownload.iml" filepath="$PROJECT_DIR$/FileDownload/FileDownload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FormExercise/FormExercise.iml" filepath="$PROJECT_DIR$/FormExercise/FormExercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HTML_CSS_JS/HTML_CSS_JS.iml" filepath="$PROJECT_DIR$/HTML_CSS_JS/HTML_CSS_JS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBC/JDBC.iml" filepath="$PROJECT_DIR$/JDBC/JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Redis/Redis.iml" filepath="$PROJECT_DIR$/Redis/Redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RequestExercise/RequestExercise.iml" filepath="$PROJECT_DIR$/RequestExercise/RequestExercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servlet/Servlet.iml" filepath="$PROJECT_DIR$/Servlet/Servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servlet&amp;HTTP&amp;Request/Servlet&amp;HTTP&amp;Request.iml" filepath="$PROJECT_DIR$/Servlet&amp;HTTP&amp;Request/Servlet&amp;HTTP&amp;Request.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Templates/Templates.iml" filepath="$PROJECT_DIR$/Templates/Templates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestSQL/TestSQL.iml" filepath="$PROJECT_DIR$/TestSQL/TestSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tomcat/Tomcat.iml" filepath="$PROJECT_DIR$/Tomcat/Tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XML/XML.iml" filepath="$PROJECT_DIR$/XML/XML.iml" />
+    </modules>
+  </component>
+</project>
