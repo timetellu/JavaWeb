@@ -29,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -130,13 +130,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\IntelliJ IDEA 14.1.7\JavaWeb\Redis\web\js" />
-      <recent name="F:\IntelliJ IDEA 14.1.7\JavaWeb\Redis\src" />
-      <recent name="F:\IntelliJ IDEA 14.1.7\JavaWeb\Redis\src\cn\timetell\jedis\util" />
-      <recent name="F:\IntelliJ IDEA 14.1.7\JavaWeb\Redis\web\WEB-INF\lib" />
-      <recent name="F:\IntelliJ IDEA 14.1.7\JavaWeb\Redis\web\WEB-INF" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\IntelliJ IDEA 14.1.7\JavaWeb\Ajax_Json\web\WEB-INF\lib" />
       <recent name="F:\IntelliJ IDEA 14.1.7\JavaWeb\Templates\bootstrap\js" />
@@ -150,6 +143,13 @@
       <recent name="cn.timetell.jdbctemplate" />
       <recent name="cn.timetell.datasource.JDBCUtils" />
       <recent name="cn.timetell.datasource.C3P0" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IntelliJ IDEA 14.1.7\JavaWeb\Redis\web\js" />
+      <recent name="F:\IntelliJ IDEA 14.1.7\JavaWeb\Redis\src" />
+      <recent name="F:\IntelliJ IDEA 14.1.7\JavaWeb\Redis\src\cn\timetell\jedis\util" />
+      <recent name="F:\IntelliJ IDEA 14.1.7\JavaWeb\Redis\web\WEB-INF\lib" />
+      <recent name="F:\IntelliJ IDEA 14.1.7\JavaWeb\Redis\web\WEB-INF" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DML_update">
@@ -678,7 +678,7 @@
       <workItem from="1589782709858" duration="1102000" />
       <workItem from="1589784076825" duration="351000" />
       <workItem from="1589858581181" duration="58000" />
-      <workItem from="1590721557639" duration="252000" />
+      <workItem from="1590721557639" duration="548000" />
     </task>
     <servers />
   </component>
